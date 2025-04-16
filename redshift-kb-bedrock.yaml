@@ -25,11 +25,11 @@ Parameters:
   WorkgroupArn:
     Type: String
     Description: ARN of the existing Redshift Serverless workgroup
-    Default: arn:aws:redshift-serverless:us-west-2:80216656xxxx:workgroup/bb3671b3-e227-4684-8bd3-00df8c413baa
+    Default: arn:aws:redshift-serverless:us-west-2:8021xxxxxxxx:workgroup/bb3671b3-e227-4684-8bd3-00df8c413baa
   AccountId:
     Type: String
     Description: AWS Account ID for the Redshift Serverless workgroup
-    Default: 80216656xxxx
+    Default: 8021xxxxxxxx
     MinLength: 12
     MaxLength: 12
     AllowedPattern: "[0-9]{12}"
